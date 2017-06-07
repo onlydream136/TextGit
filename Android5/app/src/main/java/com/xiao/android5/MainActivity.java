@@ -62,6 +62,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 //        tab.addTab(tab.newTab().setText("嘻嘻"));
 
         tab.addTab(tab.newTab().setText("测试专用数据"));
+        tab.addTab(tab.newTab().setText("测试专用数据2"));
         vp = (ViewPager) findViewById(R.id.vp);
         adapter = new myAdapter(this,datas);
         vp.setAdapter(adapter);
