@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private Button fab;
     private myAdapter adapter;
 
-    private String[] datas = {"嘻嘻","哈哈","嘿嘿","十分骄傲会计法师打发","呵呵","啊啊","哦哦"};
+    private String[] datas = {"张三","李四","嘿嘿","十分骄傲会计法师打发","呵呵","啊啊","哦哦"};
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
