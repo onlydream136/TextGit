@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private Button fab;
     private myAdapter adapter;
 
-    private String[] datas = {"11","22","66","十分骄傲会计法师打发","呵呵","啊啊","哦哦"};
+    private String[] datas = {"张三","李四","嘿嘿","十分骄傲会计法师打发","呵呵","啊啊","哦哦"};
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -64,9 +64,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         tab.addTab(tab.newTab().setText("测试专用数据"));
         tab.addTab(tab.newTab().setText("测试专用数据2"));
         tab.addTab(tab.newTab().setText("测试专用数据3"));
-        String text4 = "测试344444444444444";
+        String text1 = "测试3333333";
+        String text2 = "测试22";
         tab.addTab(tab.newTab().setText("测试专用数据123"));
-        tab.addTab(tab.newTab().setText("测试专用数据4"));
         vp = (ViewPager) findViewById(R.id.vp);
         adapter = new myAdapter(this,datas);
         vp.setAdapter(adapter);
