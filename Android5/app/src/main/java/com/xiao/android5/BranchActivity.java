@@ -9,5 +9,5 @@ package com.xiao.android5;
 
 public class BranchActivity  {
 
-    String 张三 = "salskdfjasldkjfalsdnbaoijbalkjfd;laskjfalsdkjfalskdjlamba;j";
+    String 张三 = "branch";
 }
