@@ -8,5 +8,5 @@ package com.xiao.android5;
  */
 
 public class QshActvitiy {
-    int x = 2;
+    int x = 3;
 }
