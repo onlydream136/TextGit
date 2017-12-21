@@ -8,4 +8,5 @@ package com.xiao.android5;
  */
 
 public class TestModel {
+    String name = "123";
 }
